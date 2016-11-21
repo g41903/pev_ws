@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/PEV/pev_ws/install
+
+Name: laser_curb_msg
+Description: Description of laser_curb_msg
+Version: 0.0.1
+Cflags: -I/home/ubuntu/PEV/pev_ws/install/include
+Libs: -L/home/ubuntu/PEV/pev_ws/install/lib 
+Requires: std_msgs message_runtime

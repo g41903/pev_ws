@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/PEV/pev_ws/src/pev_highlevel/apriltags_follow/src/apriltag_pid_follow.cpp
+ros/ros.h
+-
+control_toolbox/pid.h
+-
+apriltags_ros/AprilTagDetectionArray.h
+/home/ubuntu/PEV/pev_ws/src/pev_highlevel/apriltags_follow/src/apriltags_ros/AprilTagDetectionArray.h
+cmath
+-
+sstream
+-
+std_msgs/Float64.h
+-
+std_msgs/Float32.h
+-
+
